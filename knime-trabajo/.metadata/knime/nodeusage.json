@@ -22,14 +22,14 @@
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
-            "nrexecs":9,
-            "exectime":529,
-            "nrcreated":4,
+            "nrexecs":12,
+            "exectime":1157,
+            "nrcreated":5,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
-            "nrexecs":11,
-            "exectime":2335,
+            "nrexecs":14,
+            "exectime":3806,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
@@ -40,16 +40,16 @@
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
-            "nrexecs":14,
-            "exectime":1887,
-            "nrcreated":1,
+            "nrexecs":25,
+            "exectime":2257,
+            "nrcreated":2,
             "successor":"org.knime.base.node.preproc.groupby.GroupByNodeModel"
         },
         "org.knime.base.node.preproc.groupby.GroupByNodeModel":{
-            "nrexecs":12,
-            "exectime":868,
+            "nrexecs":18,
+            "exectime":1048,
             "nrcreated":1,
-            "successor":"n/a"
+            "successor":"NodeContainer"
         },
         "org.knime.base.node.preproc.normalize3.Normalizer3NodeModel":{
             "nrexecs":4,
@@ -61,22 +61,64 @@
             "nrexecs":0,
             "exectime":0,
             "nrcreated":0,
-            "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeModel"
+            "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeModel"
         },
         "org.knime.base.node.preproc.rename.RenameNodeModel":{
-            "nrexecs":5,
-            "exectime":25,
-            "nrcreated":1,
-            "successor":"NodeContainer"
+            "nrexecs":7,
+            "exectime":27,
+            "nrcreated":2,
+            "successor":"org.knime.base.node.preproc.transpose.TransposeTableNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
+            "nrexecs":10,
+            "exectime":22,
+            "nrcreated":2,
+            "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
+        },
+        "org.knime.base.node.preproc.colcombine2.ColCombine2NodeModel":{
+            "nrexecs":1,
+            "exectime":2,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.joiner.Joiner2NodeModel":{
+            "nrexecs":5,
+            "exectime":63,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2"
+        },
+        "com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel":{
+            "nrexecs":8,
+            "exectime":10,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "com.knime.reporting.nodes.dataset.ReportingImageNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2":{
+            "nrexecs":2,
+            "exectime":7,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
+        },
+        "org.knime.base.node.preproc.transpose.TransposeTableNodeModel":{
             "nrexecs":3,
-            "exectime":15,
+            "exectime":6,
             "nrcreated":1,
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         }
     },
-    "uptime":2994400,
+    "uptime":3880160,
     "launches":4,
     "crashes":0,
     "properlyShutDown":false
