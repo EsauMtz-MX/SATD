@@ -1,1 +1,2 @@
+knime://knime.workflow/iris.csv
 knime://knime.workflow/data.all
