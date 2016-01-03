@@ -16,46 +16,46 @@
             "successor":"n/a"
         },
         "org.knime.base.node.io.arffreader.ARFFReaderNodeModel":{
-            "nrexecs":8,
-            "exectime":509,
+            "nrexecs":11,
+            "exectime":1085,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
-            "nrexecs":6,
-            "exectime":374,
-            "nrcreated":3,
+            "nrexecs":9,
+            "exectime":529,
+            "nrcreated":4,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
-            "nrexecs":8,
-            "exectime":1882,
+            "nrexecs":11,
+            "exectime":2335,
             "nrcreated":1,
-            "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.ext.weka37.associator.WekaAssociatorNodeModel":{
-            "nrexecs":4,
-            "exectime":186,
+            "nrexecs":5,
+            "exectime":264,
             "nrcreated":1,
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
-            "nrexecs":7,
-            "exectime":869,
+            "nrexecs":14,
+            "exectime":1887,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.groupby.GroupByNodeModel"
         },
         "org.knime.base.node.preproc.groupby.GroupByNodeModel":{
-            "nrexecs":6,
-            "exectime":337,
+            "nrexecs":12,
+            "exectime":868,
             "nrcreated":1,
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.normalize3.Normalizer3NodeModel":{
-            "nrexecs":3,
-            "exectime":38,
+            "nrexecs":4,
+            "exectime":54,
             "nrcreated":1,
-            "successor":"org.knime.ext.weka37.associator.WekaAssociatorNodeModel"
+            "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "NodeContainer":{
             "nrexecs":0,
@@ -64,14 +64,20 @@
             "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeModel"
         },
         "org.knime.base.node.preproc.rename.RenameNodeModel":{
-            "nrexecs":2,
-            "exectime":7,
+            "nrexecs":5,
+            "exectime":25,
             "nrcreated":1,
             "successor":"NodeContainer"
+        },
+        "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
+            "nrexecs":3,
+            "exectime":15,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         }
     },
-    "uptime":3324869,
-    "launches":3,
+    "uptime":2994400,
+    "launches":4,
     "crashes":0,
     "properlyShutDown":false
 }
