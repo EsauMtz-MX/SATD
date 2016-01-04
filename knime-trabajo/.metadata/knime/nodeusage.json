@@ -22,14 +22,14 @@
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
-            "nrexecs":12,
-            "exectime":1157,
-            "nrcreated":5,
+            "nrexecs":14,
+            "exectime":9934,
+            "nrcreated":6,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
-            "nrexecs":14,
-            "exectime":3806,
+            "nrexecs":16,
+            "exectime":4523,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
@@ -40,14 +40,14 @@
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
-            "nrexecs":25,
-            "exectime":2257,
+            "nrexecs":28,
+            "exectime":2754,
             "nrcreated":2,
             "successor":"org.knime.base.node.preproc.groupby.GroupByNodeModel"
         },
         "org.knime.base.node.preproc.groupby.GroupByNodeModel":{
-            "nrexecs":18,
-            "exectime":1048,
+            "nrexecs":20,
+            "exectime":1334,
             "nrcreated":1,
             "successor":"NodeContainer"
         },
@@ -61,17 +61,17 @@
             "nrexecs":0,
             "exectime":0,
             "nrcreated":0,
-            "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeModel"
+            "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
         },
         "org.knime.base.node.preproc.rename.RenameNodeModel":{
-            "nrexecs":7,
-            "exectime":27,
+            "nrexecs":8,
+            "exectime":29,
             "nrcreated":2,
             "successor":"org.knime.base.node.preproc.transpose.TransposeTableNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":10,
-            "exectime":22,
+            "nrexecs":13,
+            "exectime":25,
             "nrcreated":2,
             "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
         },
@@ -88,14 +88,14 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.joiner.Joiner2NodeModel":{
-            "nrexecs":5,
-            "exectime":63,
+            "nrexecs":8,
+            "exectime":103,
             "nrcreated":1,
-            "successor":"org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2"
+            "successor":"NodeContainer"
         },
         "com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel":{
-            "nrexecs":8,
-            "exectime":10,
+            "nrexecs":9,
+            "exectime":11,
             "nrcreated":1,
             "successor":"n/a"
         },
@@ -106,20 +106,20 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2":{
-            "nrexecs":2,
-            "exectime":7,
+            "nrexecs":3,
+            "exectime":14,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.base.node.preproc.transpose.TransposeTableNodeModel":{
-            "nrexecs":3,
-            "exectime":6,
+            "nrexecs":4,
+            "exectime":8,
             "nrcreated":1,
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         }
     },
-    "uptime":3880160,
-    "launches":4,
+    "uptime":3569319,
+    "launches":5,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }
