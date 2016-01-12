@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="Guille"/>
 <entry key="authored-when" type="xstring" value="2016-01-03 10:56:28 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="Guille"/>
-<entry key="lastEdited-when" type="xstring" value="2016-01-04 12:47:32 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2016-01-04 23:31:19 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -415,7 +415,7 @@
 </config>
 <config key="extrainfo.conn.bendpoints_2">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xint" value="531"/>
+<entry key="0" type="xint" value="529"/>
 <entry key="1" type="xint" value="278"/>
 </config>
 </config>

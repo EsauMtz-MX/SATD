@@ -118,8 +118,8 @@
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         }
     },
-    "uptime":3569319,
-    "launches":5,
+    "uptime":3008626,
+    "launches":6,
     "crashes":0,
     "properlyShutDown":true
 }
