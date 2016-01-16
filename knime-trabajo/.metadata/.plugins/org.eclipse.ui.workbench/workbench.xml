@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="37" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><workbench progressCount="37" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="369" y="-1099">
 <fastViewData fastViewLocation="1024"/>
@@ -18,7 +17,7 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"><part id="2"/>
 <part id="2"/>
 <part id="0"/>
 <part id="1"/>
@@ -26,13 +25,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" name="default_report.rptdesign" partName="Report: workflow" path="C:/Users/Guille/Documents/GitHub/SATD/knime-trabajo/workflow/default_report.rptdesign" title="Report: workflow" tooltip="workflow/default_report.rptdesign" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/workflow/default_report.rptdesign"/>
-</editor>
-<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: workflow" title="0: workflow" tooltip="0: workflow" workbook="DefaultEditorWorkbook">
+
+
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: workflow" title="0: workflow" tooltip="0: workflow" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/workflow/workflow.knime"/>
-</editor>
-</editors>
+</editor><editor id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" name="default_report.rptdesign" partName="Report: workflow" path="C:/Users/Guille/Documents/GitHub/SATD/knime-trabajo/workflow/default_report.rptdesign" title="Report: workflow" tooltip="workflow/default_report.rptdesign" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/workflow/default_report.rptdesign"/>
+</editor><editor activePart="true" focus="true" id="org.eclipse.ui.browser.editor" name="KNIME Intro" partName="KNIME Intro" title="Welcome to KNIME" tooltip="Welcome to KNIME" workbook="DefaultEditorWorkbook"><input factoryID="org.eclipse.ui.browser.elementFactory" id="org.knime.intro.page" url="file:/C:/Users/Guille/AppData/Local/Temp/intro3531459594559602746.html"/></editor></editors>
 <views>
 <view id="org.eclipse.birt.report.designer.ui.attributes.AttributeView" partName="Property Editor">
 <viewState/>

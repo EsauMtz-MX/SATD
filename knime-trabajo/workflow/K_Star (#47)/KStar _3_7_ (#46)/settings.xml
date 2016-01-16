@@ -6,42 +6,41 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="ClassColumn" type="xstring" isnull="true" value=""/>
+<entry key="ClassColumn" type="xstring" value="clase"/>
 <config key="weka-optionhandler-settings">
-<entry key="N" type="xstring" value="10"/>
-<entry key="T" type="xstring" value="0"/>
-<entry key="C" type="xstring" value="0.9"/>
-<entry key="D" type="xstring" value="0.05"/>
-<entry key="U" type="xstring" value="1.0"/>
-<entry key="M" type="xstring" value="0.1"/>
-<entry key="S" type="xstring" value="-1.0"/>
-<entry key="I" type="xboolean" value="false"/>
-<entry key="R" type="xboolean" value="false"/>
-<entry key="V" type="xboolean" value="false"/>
-<entry key="A" type="xboolean" value="false"/>
-<entry key="Z" type="xboolean" value="false"/>
-<entry key="B" type="xstring" value=""/>
-<entry key="c" type="xstring" value="-1"/>
+<entry key="B" type="xstring" value="20"/>
+<entry key="E" type="xboolean" value="false"/>
+<entry key="M" type="xstring" value="a"/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.ext.weka37.associator.WekaAssociatorNodeFactory"/>
-<entry key="node-name" type="xstring" value="Apriori (3.7)"/>
+<entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
+<entry key="node-name" type="xstring" value="KStar (3.7)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-bundle-version" type="xstring" value="2.12.0.0047562"/>
 <config key="factory_settings">
-<entry key="weka-class" type="xstring" value="weka.associations.Apriori"/>
+<entry key="weka-class" type="xstring" value="weka.classifiers.lazy.KStar"/>
 <entry key="weka-version" type="xstring" value="3.7"/>
 </config>
-<entry key="name" type="xstring" value="Apriori (3.7)"/>
+<entry key="name" type="xstring" value="KStar (3.7)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObject"/>
+<entry key="port_object_summary" type="xstring" value="KStar"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f492bdf8-3eb7-422a-a3e6-7be2dba7d1c8"/>
+<entry key="file_store_id" type="xstring" value="d6b7b847-eeb9-45f4-9a5c-ddd73f7a9975"/>
 </config>
 </config>

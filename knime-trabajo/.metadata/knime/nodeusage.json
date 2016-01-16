@@ -24,7 +24,7 @@
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
             "nrexecs":14,
             "exectime":9934,
-            "nrcreated":6,
+            "nrcreated":7,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
@@ -118,8 +118,8 @@
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         }
     },
-    "uptime":3008626,
-    "launches":6,
+    "uptime":2845205,
+    "launches":7,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }
