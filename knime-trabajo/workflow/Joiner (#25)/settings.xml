@@ -8,7 +8,7 @@
 <config key="model">
 <entry key="duplicateHandling" type="xstring" value="AppendSuffixAutomatic"/>
 <entry key="compositionMode" type="xstring" value="MatchAll"/>
-<entry key="joinMode" type="xstring" value="InnerJoin"/>
+<entry key="joinMode" type="xstring" value="FullOuterJoin"/>
 <config key="leftTableJoinPredicate">
 <entry key="array-size" type="xint" value="1"/>
 <entry key="0" type="xstring" value="hit"/>
@@ -19,14 +19,18 @@
 </config>
 <entry key="suffix" type="xstring" value="(*)"/>
 <config key="leftIncludeCols">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="hit"/>
-<entry key="1" type="xstring" value="Sum(cnt_J48)"/>
+<entry key="1" type="xstring" value="Sum(cnt_J48_20)"/>
+<entry key="2" type="xstring" value="Sum(cnt_J48_50)"/>
+<entry key="3" type="xstring" value="Sum(cnt_J48_80)"/>
 </config>
 <config key="rightIncludeCols">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="hit"/>
-<entry key="1" type="xstring" value="Sum(cnt_naive)"/>
+<entry key="1" type="xstring" value="Sum(cnt_naive_20)"/>
+<entry key="2" type="xstring" value="Sum(cnt_naive_50)"/>
+<entry key="3" type="xstring" value="Sum(cnt_naive_80)"/>
 </config>
 <entry key="leftIncludeAll" type="xboolean" value="true"/>
 <entry key="rightIncludeAll" type="xboolean" value="true"/>
@@ -65,6 +69,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f8ddf098-5fd9-4edc-8762-fc0e8dd24bf1"/>
+<entry key="file_store_id" type="xstring" value="fdff7ec5-b112-4ab4-abf3-15b7b6be2109"/>
 </config>
 </config>

@@ -19,17 +19,17 @@
             "nrexecs":11,
             "exectime":1085,
             "nrcreated":1,
-            "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
+            "successor":"org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeModel"
         },
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
-            "nrexecs":29,
-            "exectime":10861,
+            "nrexecs":197,
+            "exectime":73551,
             "nrcreated":7,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
-            "nrexecs":31,
-            "exectime":18791,
+            "nrexecs":184,
+            "exectime":48967,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
@@ -40,20 +40,20 @@
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
-            "nrexecs":52,
-            "exectime":4626,
-            "nrcreated":2,
-            "successor":"org.knime.base.node.preproc.groupby.GroupByNodeModel"
+            "nrexecs":215,
+            "exectime":12060,
+            "nrcreated":3,
+            "successor":"org.knime.ext.weka37.classifier.WekaClassifierNodeModel"
         },
         "org.knime.base.node.preproc.groupby.GroupByNodeModel":{
-            "nrexecs":43,
-            "exectime":2377,
+            "nrexecs":190,
+            "exectime":7581,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeModel"
         },
         "org.knime.base.node.preproc.normalize3.Normalizer3NodeModel":{
-            "nrexecs":4,
-            "exectime":54,
+            "nrexecs":14,
+            "exectime":174,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.partition.PartitionNodeModel"
         },
@@ -61,17 +61,17 @@
             "nrexecs":0,
             "exectime":0,
             "nrcreated":0,
-            "successor":"org.knime.base.node.preproc.partition.PartitionNodeModel"
+            "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeModel"
         },
         "org.knime.base.node.preproc.rename.RenameNodeModel":{
-            "nrexecs":13,
-            "exectime":37,
+            "nrexecs":34,
+            "exectime":74,
             "nrcreated":2,
-            "successor":"org.knime.base.node.preproc.transpose.TransposeTableNodeModel"
+            "successor":"NodeContainer"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":33,
-            "exectime":114,
+            "nrexecs":202,
+            "exectime":1136,
             "nrcreated":2,
             "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
         },
@@ -88,14 +88,14 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.joiner.Joiner2NodeModel":{
-            "nrexecs":22,
-            "exectime":349,
+            "nrexecs":160,
+            "exectime":4772,
             "nrcreated":1,
             "successor":"NodeContainer"
         },
         "com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel":{
-            "nrexecs":13,
-            "exectime":17,
+            "nrexecs":29,
+            "exectime":36,
             "nrcreated":1,
             "successor":"n/a"
         },
@@ -106,26 +106,44 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2":{
-            "nrexecs":6,
-            "exectime":25,
+            "nrexecs":26,
+            "exectime":74,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.base.node.preproc.transpose.TransposeTableNodeModel":{
-            "nrexecs":9,
-            "exectime":21,
+            "nrexecs":25,
+            "exectime":53,
             "nrcreated":1,
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
         },
         "org.knime.base.node.preproc.partition.PartitionNodeModel":{
-            "nrexecs":12,
-            "exectime":961,
+            "nrexecs":201,
+            "exectime":6411,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeModel"
+        },
+        "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeModel":{
+            "nrexecs":3,
+            "exectime":6,
             "nrcreated":1,
             "successor":"org.knime.ext.weka37.classifier.WekaClassifierNodeModel"
+        },
+        "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeModel":{
+            "nrexecs":10,
+            "exectime":628,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.partition.PartitionNodeModel"
+        },
+        "org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeModel":{
+            "nrexecs":2,
+            "exectime":7,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         }
     },
-    "uptime":2593690,
+    "uptime":3877192,
     "launches":9,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }

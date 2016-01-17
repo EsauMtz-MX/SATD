@@ -393,7 +393,7 @@
                 <path d="M571 429 L589 429 L589 440 L571 440 L571 429 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath127">
-                <path d="M-1 -1 L1591 -1 L1591 724 L-1 724 L-1 -1 Z"/>
+                <path d="M-1 -1 L1390 -1 L1390 662 L-1 662 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g fill="rgb(255,255,225)" font-family="&apos;Segoe UI&apos;"
@@ -2617,12 +2617,6 @@ NqK3txcDAwP4B3UxEPrcNn4DAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
                      points=" 538 439 546 443 538 447"/>
             <polygon fill="none" clip-path="url(#clipPath126)"
                      points=" 579 430 587 434 579 438"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="376" x2="384"
-                  y1="414" y2="414"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="384" x2="421"
-                  y1="414" y2="414"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="421" x2="429"
-                  y1="414" y2="414"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="199" x2="207"
                   y1="167" y2="167"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="207" x2="256"
@@ -2675,16 +2669,10 @@ NqK3txcDAwP4B3UxEPrcNn4DAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
                   y1="499" y2="499"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="318" x2="326"
                   y1="499" y2="499"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="376" x2="384"
-                  y1="499" y2="499"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="384" x2="421"
-                  y1="499" y2="433"/>
-            <line clip-path="url(#clipPath127)" fill="none" x1="421" x2="429"
-                  y1="433" y2="433"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="77" x2="85"
-                  y1="113" y2="113"/>
+                  y1="93" y2="93"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="85" x2="141"
-                  y1="113" y2="177"/>
+                  y1="93" y2="177"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="141" x2="149"
                   y1="177" y2="177"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="199" x2="207"
@@ -2743,12 +2731,24 @@ NqK3txcDAwP4B3UxEPrcNn4DAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
                   y1="239" y2="239"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="530" x2="538"
                   y1="239" y2="239"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="376" x2="384"
+                  y1="499" y2="499"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="384" x2="421"
+                  y1="499" y2="433"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="421" x2="429"
+                  y1="433" y2="433"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="479" x2="487"
                   y1="424" y2="424"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="487" x2="530"
                   y1="424" y2="424"/>
             <line clip-path="url(#clipPath127)" fill="none" x1="530" x2="538"
                   y1="424" y2="424"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="376" x2="384"
+                  y1="414" y2="414"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="384" x2="421"
+                  y1="414" y2="414"/>
+            <line clip-path="url(#clipPath127)" fill="none" x1="421" x2="429"
+                  y1="414" y2="414"/>
         </g>
     </g>
 </svg>

@@ -9,40 +9,6 @@
         <oda-data-source extensionID="com.knime.oda.data.source" name="workflow" id="21"/>
     </data-sources>
     <data-sets>
-        <oda-data-set extensionID="com.knime.oda.data.set" name="toReport_30" id="22">
-            <text-property name="displayName">toReport_30</text-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">Row ID</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">h/m_ratio</property>
-                        <property name="dataType">float</property>
-                    </structure>
-                </list-property>
-            </structure>
-            <property name="dataSource">workflow</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">Row ID</property>
-                    <property name="nativeName">Row ID</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">h/m_ratio</property>
-                    <property name="nativeName">h/m_ratio</property>
-                    <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
-                </structure>
-            </list-property>
-            <xml-property name="queryText"><![CDATA[30]]></xml-property>
-        </oda-data-set>
         <oda-data-set extensionID="com.knime.oda.data.set" name="toReport_45" id="32">
             <text-property name="displayName">toReport_45</text-property>
             <structure name="cachedMetaData">
@@ -76,6 +42,40 @@
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[45]]></xml-property>
+        </oda-data-set>
+        <oda-data-set extensionID="com.knime.oda.data.set" name="toReport_30" id="34">
+            <text-property name="displayName">toReport_30</text-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Row ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">h/m_ratio</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">workflow</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Row ID</property>
+                    <property name="nativeName">Row ID</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">h/m_ratio</property>
+                    <property name="nativeName">h/m_ratio</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[30]]></xml-property>
         </oda-data-set>
     </data-sets>
     <styles>

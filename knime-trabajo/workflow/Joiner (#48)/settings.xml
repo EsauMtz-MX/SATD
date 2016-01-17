@@ -19,15 +19,21 @@
 </config>
 <entry key="suffix" type="xstring" value="(*)"/>
 <config key="leftIncludeCols">
-<entry key="array-size" type="xint" value="3"/>
+<entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xstring" value="hit"/>
-<entry key="1" type="xstring" value="Sum(cnt_J48)"/>
-<entry key="2" type="xstring" value="Sum(cnt_naive)"/>
+<entry key="1" type="xstring" value="Sum(cnt_ZeroR_20)"/>
+<entry key="2" type="xstring" value="Sum(cnt_ZeroR_50)"/>
+<entry key="3" type="xstring" value="Sum(cnt_ZeroR_80)"/>
+<entry key="4" type="xstring" value="Sum(cnt_MLP_20)"/>
+<entry key="5" type="xstring" value="Sum(cnt_MLP_50)"/>
+<entry key="6" type="xstring" value="Sum(cnt_MLP_80)"/>
 </config>
 <config key="rightIncludeCols">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="hit"/>
-<entry key="1" type="xstring" value="Sum(cnt_id3)"/>
+<entry key="1" type="xstring" value="Sum(cnt_KStar_20)"/>
+<entry key="2" type="xstring" value="Sum(cnt_KStar_50)"/>
+<entry key="3" type="xstring" value="Sum(cnt_KStar_80)"/>
 </config>
 <entry key="leftIncludeAll" type="xboolean" value="true"/>
 <entry key="rightIncludeAll" type="xboolean" value="true"/>
@@ -66,6 +72,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e97eaa90-3e0a-4d17-84ca-dc80c1b3fe69"/>
+<entry key="file_store_id" type="xstring" value="e774630f-a6ea-4f23-8f8e-a18d0ed196a6"/>
 </config>
 </config>

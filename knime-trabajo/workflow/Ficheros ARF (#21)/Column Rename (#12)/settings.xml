@@ -8,7 +8,7 @@
 <config key="model">
 <config key="all_columns">
 <config key="0">
-<entry key="old_column_name" type="xstring" value="survived"/>
+<entry key="old_column_name" type="xstring" value="play"/>
 <entry key="new_column_name" type="xstring" value="clase"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
@@ -16,10 +16,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="The following columns are configured but no longer exist: &quot;survived&quot;"/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Rename"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -41,6 +37,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ad443b36-09ab-4a80-ba7d-53eea55b39a8"/>
+<entry key="file_store_id" type="xstring" value="5b634266-532b-4d24-91ec-b3bbfa53c455"/>
 </config>
 </config>

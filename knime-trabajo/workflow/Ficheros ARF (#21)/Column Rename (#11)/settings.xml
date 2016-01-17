@@ -8,7 +8,7 @@
 <config key="model">
 <config key="all_columns">
 <config key="0">
-<entry key="old_column_name" type="xstring" value="partePieza"/>
+<entry key="old_column_name" type="xstring" value="Sexo"/>
 <entry key="new_column_name" type="xstring" value="clase"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
@@ -16,10 +16,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="The following columns are configured but no longer exist: &quot;partePieza&quot;"/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Rename"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -41,6 +37,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4787d481-b4a9-4948-95e9-323c1584a08b"/>
+<entry key="file_store_id" type="xstring" value="79b675ba-475a-4b79-a508-221fe3b898a2"/>
 </config>
 </config>
