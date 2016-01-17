@@ -1,0 +1,7 @@
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/datasets2/Empleados.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/datasets2/train1.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/datasets2/weather.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/vehiculos.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/arqueologia.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/titanic.arff
+file:/C:/Users/Guille/Documents/GitHub/SATD/datasets/vote.arff
