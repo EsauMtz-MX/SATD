@@ -22,14 +22,14 @@
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.ext.weka37.classifier.WekaClassifierNodeModel":{
-            "nrexecs":14,
-            "exectime":9934,
+            "nrexecs":29,
+            "exectime":10861,
             "nrcreated":7,
             "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
         },
         "org.knime.ext.weka37.predictor3.WekaPredictorNodeModel":{
-            "nrexecs":16,
-            "exectime":4523,
+            "nrexecs":31,
+            "exectime":18791,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
@@ -40,38 +40,38 @@
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
-            "nrexecs":28,
-            "exectime":2754,
+            "nrexecs":52,
+            "exectime":4626,
             "nrcreated":2,
             "successor":"org.knime.base.node.preproc.groupby.GroupByNodeModel"
         },
         "org.knime.base.node.preproc.groupby.GroupByNodeModel":{
-            "nrexecs":20,
-            "exectime":1334,
+            "nrexecs":43,
+            "exectime":2377,
             "nrcreated":1,
-            "successor":"NodeContainer"
+            "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeModel"
         },
         "org.knime.base.node.preproc.normalize3.Normalizer3NodeModel":{
             "nrexecs":4,
             "exectime":54,
             "nrcreated":1,
-            "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeModel"
+            "successor":"org.knime.base.node.preproc.partition.PartitionNodeModel"
         },
         "NodeContainer":{
             "nrexecs":0,
             "exectime":0,
             "nrcreated":0,
-            "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
+            "successor":"org.knime.base.node.preproc.partition.PartitionNodeModel"
         },
         "org.knime.base.node.preproc.rename.RenameNodeModel":{
-            "nrexecs":8,
-            "exectime":29,
+            "nrexecs":13,
+            "exectime":37,
             "nrcreated":2,
             "successor":"org.knime.base.node.preproc.transpose.TransposeTableNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":13,
-            "exectime":25,
+            "nrexecs":33,
+            "exectime":114,
             "nrcreated":2,
             "successor":"com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel"
         },
@@ -88,14 +88,14 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.joiner.Joiner2NodeModel":{
-            "nrexecs":8,
-            "exectime":103,
+            "nrexecs":22,
+            "exectime":349,
             "nrcreated":1,
             "successor":"NodeContainer"
         },
         "com.knime.reporting.nodes.dataset.ReportingDataSetNodeModel":{
-            "nrexecs":9,
-            "exectime":11,
+            "nrexecs":13,
+            "exectime":17,
             "nrcreated":1,
             "successor":"n/a"
         },
@@ -106,20 +106,26 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.rowkey2.RowKeyNodeModel2":{
-            "nrexecs":3,
-            "exectime":14,
+            "nrexecs":6,
+            "exectime":25,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.base.node.preproc.transpose.TransposeTableNodeModel":{
-            "nrexecs":4,
-            "exectime":8,
+            "nrexecs":9,
+            "exectime":21,
             "nrcreated":1,
             "successor":"org.knime.base.node.jsnippet.JavaSnippetNodeModel"
+        },
+        "org.knime.base.node.preproc.partition.PartitionNodeModel":{
+            "nrexecs":12,
+            "exectime":961,
+            "nrcreated":1,
+            "successor":"org.knime.ext.weka37.classifier.WekaClassifierNodeModel"
         }
     },
-    "uptime":2845205,
-    "launches":7,
+    "uptime":2593690,
+    "launches":9,
     "crashes":0,
     "properlyShutDown":false
 }

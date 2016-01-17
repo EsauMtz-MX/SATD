@@ -8,7 +8,7 @@
 <config key="model">
 <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010"/>
 <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
-<entry key="scriptBody" type="xstring" value="if(c_clase.equals(c_Predictionclase)){%%00010%%00009out_hit = true;%%00010}%%00010else out_hit = false;%%00010out_cnt_naive = 1;%%00010%%00010%%00010%%00010"/>
+<entry key="scriptBody" type="xstring" value="if(c_clase.equals(c_Predictionclase)){%%00010%%00009out_hit = true;%%00010}%%00010else out_hit = false;%%00010out_cnt_naive_20 = 1;%%00010%%00010%%00010%%00010"/>
 <config key="jarFiles">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -25,8 +25,8 @@
 <entry key="replaceExisting" type="xboolean" value="false"/>
 </config>
 <config key="1">
-<entry key="Name" type="xstring" value="cnt_naive"/>
-<entry key="JavaName" type="xstring" value="out_cnt_naive"/>
+<entry key="Name" type="xstring" value="cnt_naive_20"/>
+<entry key="JavaName" type="xstring" value="out_cnt_naive_20"/>
 <entry key="JavaType" type="xstring" value="java.lang.Integer"/>
 <config key="Type">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
@@ -83,12 +83,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1728, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1383, Cols: 4"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ddcd9cd0-4ebd-4a82-b9f2-fad9802eda6a"/>
+<entry key="file_store_id" type="xstring" value="f0205bda-6f0c-4bb0-9d6d-e3dcbe481c9a"/>
 </config>
 </config>

@@ -19,7 +19,7 @@
 <entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="clase"/>
 <entry key="1" type="xstring" value="Prediction (clase)"/>
-<entry key="2" type="xstring" value="cnt_naive"/>
+<entry key="2" type="xstring" value="cnt_naive_20"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -51,7 +51,7 @@
 <config key="aggregationColumn">
 <config key="columnNames">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="cnt_naive"/>
+<entry key="0" type="xstring" value="cnt_naive_20"/>
 </config>
 <config key="columnTypes">
 <entry key="array-size" type="xint" value="1"/>
@@ -111,6 +111,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f7d9e474-eb3b-47c2-8027-e23f50c67a77"/>
+<entry key="file_store_id" type="xstring" value="29a6ac02-4b9d-47c8-8d8e-ef55a8f11fa1"/>
 </config>
 </config>

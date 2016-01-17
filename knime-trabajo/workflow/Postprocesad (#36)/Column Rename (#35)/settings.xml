@@ -8,18 +8,48 @@
 <config key="model">
 <config key="all_columns">
 <config key="0">
-<entry key="old_column_name" type="xstring" value="Sum(cnt_J48)"/>
-<entry key="new_column_name" type="xstring" value="J48"/>
+<entry key="old_column_name" type="xstring" value="Sum(cnt_J48_20)"/>
+<entry key="new_column_name" type="xstring" value="J48_20"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="1">
-<entry key="old_column_name" type="xstring" value="Sum(cnt_naive)"/>
-<entry key="new_column_name" type="xstring" value="Naive"/>
+<entry key="old_column_name" type="xstring" value="Sum(cnt_J48_50)"/>
+<entry key="new_column_name" type="xstring" value="J48_50"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="2">
-<entry key="old_column_name" type="xstring" value="Sum(cnt_id3)"/>
-<entry key="new_column_name" type="xstring" value="id3"/>
+<entry key="old_column_name" type="xstring" value="Sum(cnt_J48_80)"/>
+<entry key="new_column_name" type="xstring" value="J48_80"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="3">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_naive_20)"/>
+<entry key="new_column_name" type="xstring" value="naive_20"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="4">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_naive_50)"/>
+<entry key="new_column_name" type="xstring" value="naive_50"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="5">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_naive_80)"/>
+<entry key="new_column_name" type="xstring" value="naive_80"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="6">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_id3_20)"/>
+<entry key="new_column_name" type="xstring" value="id3_20"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="7">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_id3_50)"/>
+<entry key="new_column_name" type="xstring" value="id3_50"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="8">
+<entry key="old_column_name" type="xstring" value="Sum(cnt_id3_80)"/>
+<entry key="new_column_name" type="xstring" value="id3_80"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>
@@ -41,12 +71,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 9"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2b55c431-2678-4425-b19a-a1f1db8a0b37"/>
+<entry key="file_store_id" type="xstring" value="22cc56c4-7f13-43b2-afa0-1e2310eae193"/>
 </config>
 </config>

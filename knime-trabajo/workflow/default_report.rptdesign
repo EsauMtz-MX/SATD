@@ -72,6 +72,7 @@
                     <property name="name">h/m_ratio</property>
                     <property name="nativeName">h/m_ratio</property>
                     <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[45]]></xml-property>
@@ -1288,7 +1289,7 @@
             <property name="inheritColumns">true</property>
             <property name="dataSet">toReport_30</property>
             <property name="height">2.4270833333333335in</property>
-            <property name="width">3.9791666666666665in</property>
+            <property name="width">7.833333333333333in</property>
             <list-property name="boundDataColumns">
                 <structure>
                     <property name="name">Row ID</property>
@@ -2430,7 +2431,7 @@
             <property name="inheritColumns">false</property>
             <property name="dataSet">toReport_45</property>
             <property name="height">2.5520833333333335in</property>
-            <property name="width">3.9895833333333335in</property>
+            <property name="width">8.229166666666666in</property>
             <list-property name="boundDataColumns">
                 <structure>
                     <property name="name">Row ID</property>
