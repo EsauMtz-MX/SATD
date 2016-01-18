@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><workbench progressCount="37" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="994" width="1354" x="554" y="-1069">
+<window height="728" width="1364" x="1" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout>
 <coolItem id="main" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="665" y="22"/>
+<coolItem id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="688" y="22"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.birt.report.designer.ui.previewActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 </coolbarLayout>
@@ -17,21 +18,20 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"><part id="2"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-
-
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: workflow" title="0: workflow" tooltip="0: workflow" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/workflow/workflow.knime"/>
+</editor>
 <editor id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" name="default_report.rptdesign" partName="Report: workflow" path="C:/Users/Guille/Documents/GitHub/SATD/knime-trabajo/workflow/default_report.rptdesign" title="Report: workflow" tooltip="workflow/default_report.rptdesign" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/workflow/default_report.rptdesign"/>
-</editor><editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: workflow" title="0: workflow" tooltip="0: workflow" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/workflow/workflow.knime"/>
-</editor><editor activePart="true" focus="true" id="org.eclipse.ui.browser.editor" name="KNIME Intro" partName="KNIME Intro" title="Welcome to KNIME" tooltip="Welcome to KNIME" workbook="DefaultEditorWorkbook"><input factoryID="org.eclipse.ui.browser.elementFactory" id="org.knime.intro.page" url="file:/C:/Users/Guille/AppData/Local/Temp/intro2240491160308559952.html"/></editor></editors>
+</editor>
+</editors>
 <views>
 <view id="org.eclipse.birt.report.designer.ui.attributes.AttributeView" partName="Property Editor">
 <viewState/>
@@ -181,49 +181,36 @@
 <view id="com.knime.reporting.designer.view.dataset.explorer"/>
 <view id="org.eclipse.gef.ui.palette_view"/>
 <view id="org.eclipse.birt.report.designer.ui.attributes.AttributeView"/>
+<view id="org.eclipse.help.ui.HelpView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.birt.report.designer.ui.attributes.AttributeView" showTitle="true" standalone="true"/>
 <viewLayoutRec closeable="false" id="org.eclipse.gef.ui.palette_view"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c03bd03">
-<folder activePageID="org.knime.workbench.explorer.view" appearance="2" expanded="2">
-<page content="org.knime.workbench.explorer.view" label="KNIME Explorer"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c03bd03">&#x0A;<folder activePageID="org.knime.workbench.explorer.view" appearance="2" expanded="2">&#x0A;<page content="org.knime.workbench.explorer.view" label="KNIME Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c03bd03">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c03bd03">&#x0A;<folder activePageID="org.eclipse.help.ui.HelpView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="Help"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info part="org.knime.workbench.ui.navigator.KnimeResourceNavigator" ratio="0.19955817" ratioLeft="271" ratioRight="1087" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c03bd03"/>
 <info part="org.eclipse.ui.editorss" ratio="0.19963202" ratioLeft="217" ratioRight="870" relationship="2" relative="org.knime.workbench.ui.navigator.KnimeResourceNavigator"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14793c7a" ratio="0.6597774" ratioLeft="415" ratioRight="214" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.birt.report.designer.ui.attributes.AttributeView" appearance="3" expanded="2">
-<page content="org.eclipse.birt.report.designer.ui.attributes.AttributeView" label="Property Editor"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14793c7a" ratio="0.6597774" ratioLeft="415" ratioRight="214" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.birt.report.designer.ui.attributes.AttributeView" appearance="3" expanded="2">&#x0A;<page content="org.eclipse.birt.report.designer.ui.attributes.AttributeView" label="Property Editor"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@396e1e53" ratio="0.34976152" ratioLeft="220" ratioRight="409" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c03bd03">
-<folder activePageID="com.knime.reporting.designer.view.dataset.explorer" appearance="2" expanded="2">
-<page content="com.knime.reporting.designer.view.dataset.explorer" label="Data set view"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@396e1e53" ratio="0.34976152" ratioLeft="220" ratioRight="409" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c03bd03">&#x0A;<folder activePageID="com.knime.reporting.designer.view.dataset.explorer" appearance="2" expanded="2">&#x0A;<page content="com.knime.reporting.designer.view.dataset.explorer" label="Data set view"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6c88f899" ratio="0.24938875" ratioLeft="102" ratioRight="307" relationship="4" relative="org.eclipse.ui.internal.ViewStack@396e1e53">
-<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">
-<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6c88f899" ratio="0.24938875" ratioLeft="102" ratioRight="307" relationship="4" relative="org.eclipse.ui.internal.ViewStack@396e1e53">&#x0A;<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -232,23 +219,24 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" path="/workflow/default_report.rptdesign"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/workflow/workflow.knime"/>
+</editors>
+<item historyLabel="Report: workflow" index="0"/>
+<item active="true" historyLabel="0: workflow" index="1"/>
+</navigationHistory>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@6daa1453"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@391c8d64"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@6f359a46"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@186bd87"/>
 </trimArea>
 </trimLayout>
 </window>

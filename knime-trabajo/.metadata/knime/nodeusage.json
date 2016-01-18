@@ -142,8 +142,8 @@
             "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         }
     },
-    "uptime":3877192,
-    "launches":9,
+    "uptime":3986878,
+    "launches":11,
     "crashes":0,
     "properlyShutDown":true
 }
